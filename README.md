@@ -1,10 +1,9 @@
 # Reflex-Trainer
-Simple and low budget implementation of a device that's used to improve our Reflexes (response time), using Raspberry Pi's Pico Mircrocontroller
+Simple implementation of a device that's used to improve our Reflexes (response time), using Raspberry Pi's Pico Mircrocontroller
 
 
 ## Inspiration
-I saw a device in a youtube video where Formula 1 drivers used it as a part of game in which the participant's reflex is compared against time. Here's the video: https://youtu.be/BhLr43elNCE , Timestamp: 0:40.  
-This project aims to implement such a device at lower budget.
+I saw a device in a youtube video where Formula 1 drivers used it as a part of game in which the participant's reflex is compared against time. Here's the video: https://youtu.be/BhLr43elNCE , Timestamp: 0:40.  This project aims to implement such a device.
 
 ## Materials Required
   Here's the list of products required for the project. The link following each product is to familarize you with the type of component I have used. These are not sponsored products and I'm in no way rewarded by any party. You can use alternate products of same kind (Except Pico microcontroller) as long as the working principle and terminals are same with the one I have shown in the link.
@@ -93,7 +92,7 @@ Before connections, make sure you couple each LED to a IRPS. The idea is to cons
 10. Power the Micro-controller using a Micro-USB cable
 
 
-# Building the UF2 binary file
+## Building the UF2 binary file
 
 I have provided the UF2 generated for the given source in the respository. If you have modified the given source and want to build the UF2 file, follow these steps:
 
@@ -102,7 +101,7 @@ I have provided the UF2 generated for the given source in the respository. If yo
 #### On UBUNTU systems:  
 
 
-#### Note for contributors: I need someone's help to write the CMakeLists.txt file such that the user can store the source file and UF2 file that's built using the source file in any directory they wish. Right now, my suggestion for everyone is to replace the `lcd_1602_i2c.c` file and `CMakeLists.txt` file present in the ``../../pico/pico-examples/i2c/lcd_1602_i2c/`` directory with the files that I have provided in this repository
+#### Note for contributors: I need someone's help to write the CMakeLists.txt file such that the user can store the source file and UF2 file that's built using the source file in any directory they wish. Right now, my suggestion for everyone is to replace the `lcd_1602_i2c.c` file and `CMakeLists.txt` file present in the `~/pico/pico-examples/i2c/lcd_1602_i2c/` directory with the files that I have provided in this repository
 
 
 Open Terminal and enter following commands:
