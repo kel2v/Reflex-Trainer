@@ -29,7 +29,7 @@ Please note that the project actually requires less number of cables than its st
 
 
 ## Block Diagram  
-![image](https://github.com/kel2v/Reflex-Trainer/assets/110998030/108bb320-76d6-4780-a38b-4c61cf9cbec1)
+![image](https://github.com/kel2v/Reflex-Trainer/blob/3c8ba6ac32a195e84022a73b3ff432b0cfb31963/images/blockDiagram1.jpg)
 
 
 **IRPS = Infrared Proximity Sensor  
@@ -76,7 +76,7 @@ when the test is running, pressing the button immediately stops the test and ret
 
 Before connections, make sure you couple each LED to a IRPS. The idea is to consider the IRPS-LED pair as a single component with 4 terminals (3 terminals of IRPS: **Vcc**, **GND** and **OUT**, and 1 terminal of LED: **+ve terminal**). One idea is to solder the **-ve terminal** (shorter terminal of LED) of the LED with the **GND** terminal of the IRPS, thus end up having 4 terminals.  
 
-![image](https://github.com/kel2v/Reflex-Trainer/assets/110998030/9273e512-01cb-446e-9cc0-c016dbb943e2)  
+ ![image](https://github.com/kel2v/Reflex-Trainer/blob/3c8ba6ac32a195e84022a73b3ff432b0cfb31963/images/connections4.jpg)
 
 
 1. Connect IRPS0’s **LED** terminal to GP0,  **Data** terminal to GP1, **Vcc** terminal to 5v supply and **GND** terminal to ground  
