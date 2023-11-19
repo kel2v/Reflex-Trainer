@@ -3,7 +3,7 @@ Simple implementation of a device that's used to improve our Reflexes (response 
 
 
 ## Inspiration
-I saw a device in a youtube video where Formula 1 drivers used it as a part of game in which the participant's reflex is compared against time. Here's the video: https://youtu.be/BhLr43elNCE , Timestamp: 0:40.  This project aims to implement such a device.
+I saw a device in a youtube video where Motorsport drivers used it as a part of game in which the participant's reflex is compared against time. Here's the video: https://youtu.be/BhLr43elNCE , Timestamp: 0:40.  This project aims to implement such a device.
 
 ## Materials Required
   Here's the list of products required for the project. The link following each product is to familarize you with the type of component I have used. These are not sponsored products and I'm in no way rewarded by any party. You can use alternate products of same kind (Except Pico microcontroller) as long as the working principle and terminals are same with the one I have shown in the link.
